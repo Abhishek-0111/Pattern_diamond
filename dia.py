@@ -1,4 +1,3 @@
-"""floyd's triangle"""
 n = int(input('dimen ?\n'))
 tmp = n
 c = 0
@@ -12,4 +11,6 @@ for i in range(n):
         if j <= i < (n // 2 + 1):
             print("{0:{1}d}".format(count, c), end=' ')
             count += 1
-    
+        elif j <= n-i-1 and i >= (n//2 + 1):
+            print("{0:{1}d}".format(count, c), end=' ')
+            count += 1
