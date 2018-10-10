@@ -1,3 +1,4 @@
+"""floyd's triangle"""
 n = int(input('dimen ?\n'))
 tmp = n
 c = 0
