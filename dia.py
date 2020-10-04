@@ -1,4 +1,6 @@
-n = int(input('dimen ?\n'))
+## @author: Abhishek Reddy
+
+n = int(input('dimen ?\n')) # Input from user i.e., number of dimensions
 tmp = n
 c = 0
 while tmp:
